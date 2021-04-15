@@ -1,0 +1,22 @@
+import Global_Value as gl
+
+num_q = gl.get_value('num_q')
+m0 = gl.get_value('m0')
+m = gl.get_value('m')
+mass = sum(m)+m0
+Ez = gl.get_value('Ez')
+inertia = gl.get_value('inertia')
+inertia0 = gl.get_value('inertia0')
+delta_t = gl.get_value('delta_t')
+BB = gl.get_value('BB')
+J_type = gl.get_value('J_type')
+Qi = gl.get_value('Qi')
+Qe = gl.get_value('Qe')
+c0 = gl.get_value('c0')
+cc = gl.get_value('cc')
+ce = gl.get_value('ce')
+SS = gl.get_value('SS')
+SE = gl.get_value('SE')
+S0 = gl.get_value('S0')
+Gravity = gl.get_value('Gravity')
+d_time = gl.get_value('d_time')
